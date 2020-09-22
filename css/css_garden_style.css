@@ -329,6 +329,7 @@ footer a:visited {
    height: 60%;
    margin-right: 15%;
    filter: sepia(50%);
+   transform: rotate(5deg);
 }
 .extra1::after,
 .extra2::after,
@@ -348,5 +349,34 @@ footer a:visited {
 .extra6::after{
    transform: rotate(45deg);
    top: 10%;
-   left: 25%;
+   left: 30%;
+}
+
+@media (min-width:1000px) and (max-width:1600px){
+   body{
+      font-size: 20px;
+   }
+   .participation{
+      font-size: 18px;
+   }
+   .requirements{
+      font-size: 15px;
+   }
+   .sidebar .wrapper {
+      font-size: 13px;
+   }
+}
+@media (max-width:1000px){
+   body{
+      font-size: 18px;
+   }
+   .participation{
+      font-size: 16px;
+   }
+   .requirements{
+      font-size: 13px;
+   }
+   .sidebar .wrapper {
+      font-size: 12px;
+   }
 }
